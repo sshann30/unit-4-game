@@ -1,0 +1,94 @@
+
+body {
+	font-family: 'VT323', monospace;
+	background-image: url("images/bright-background-with-dots_1055-3132.jpg");
+
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	background-image: url("images/Soccer-Field_www.FullHDWpp.com_-728x409.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.jumbotron h1{
+	color: green;
+	width: 100%;
+}
+
+.jumbotron p{
+	color: #fff;
+	width: 100%;
+}
+  .nav-title {
+	width: 100%;
+  }
+  
+  .header {
+	font-size: 2.5em;
+	
+  }
+  
+  .scoreboard {
+	font-size: 1.5em;
+	color: red;
+  }
+  
+  .numberbox p {
+	font-size: 1.5em;
+	display: block;
+  }
+
+  p {
+	font-size: 1.5em;
+	display: block;
+  }
+  
+  .teams img {
+	width: 100px;
+	display: inline-block;
+	margin: 60px;
+  }
+  
+  a:hover {
+	cursor: pointer;
+  }
+  
+  button, button:active, button:hover, button:visited, button:focus  {
+	border: none;
+	background: none;
+	border-style: none;
+	outline: none;
+  }
+  
+  /* Pop Effect */
+  @-webkit-keyframes hvr-pop {
+	50% {
+	  -webkit-transform: scale(1.2);
+	  transform: scale(1.2);
+	}
+  }
+  @keyframes hvr-pop {
+	50% {
+	  -webkit-transform: scale(1.2);
+	  transform: scale(1.2);
+	}
+  }
+  .hvr-pop {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+  }
+  .hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+	-webkit-animation-name: hvr-pop;
+	animation-name: hvr-pop;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+  }

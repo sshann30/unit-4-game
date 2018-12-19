@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Champions League</title>
+</head>
+<body>
+  <div class="row nav-title">
+
+		<div class="jumbotron">
+				<div class="container text-center">
+				  <h1>Champions League</h1>      
+				  <p>A Crystal Collector Game</p>
+				</div>
+			  </div>
+  <br>
+
+  <div class="col-sm-4">
+		<p><p style="text-align:center"></p>
+	  </div>
+	  <div class="col-sm-4"> 
+	  <p><p style="text-align:center"><p>Each of the 4 teams below will have a hidden random number assigned 0-12. </p>
+	  <p>The value of each team is hidden from you until you click on it.</p>
+	  <p>Click on the teams to accumulate numbers and match the "Random Number"</p>
+	  <p>You win the game by matching your total score to the "Random Number".
+	  <p>If your total score goes above the random number, you lose</p>
+	  <p>The game will change all random values after every game.</p></p>
+	  </div>
+			  
+
+
+    <!-- SCOREBOARD -->
+    <div class="col-md-12 scoreboard text-center">
+      Wins: <span id="wins">0</span> Losses: <span id="losses">0</span>
+    </div>
+
+  </div>
+    <!-- NUMBERS -->
+
+    <div class="row text-center">
+      <div class="numberbox">
+        <div class="random-number">
+          <p>Random Number: <span id=randomNumber></span></p>
+        </div>
+        <div class="current-score">
+          <p>Your Number: <span id="currentScore">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAMS -->
+    <div class="row teams text-center">
+      <a id="barca" class="hvr-pop"><img class="img-responsive" src="assets/images/barca.png" alt="barca"></a>
+      <a id="bayern" class="hvr-pop"><img class="img-responsive" src="assets/images/bayern.png" alt="bayern"></a>
+      <a id="manu" class="hvr-pop"><img class="img-responsive" src="assets/images/manu.png" alt="manu"></a>
+      <a id="psg" class="hvr-pop"><img class="img-responsive" src="assets/images/psg.jpg" alt="psg"></a>
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="assets/javascript.js"></script>
+</body>
+</html>
